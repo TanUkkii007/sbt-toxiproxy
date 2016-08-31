@@ -2,8 +2,6 @@ name := "sbt-toxiproxy"
 
 sbtPlugin := true
 
-version := "0.0.1-SNAPSHOT"
-
 organization := "github.com/TanUkkii007"
 
 scalacOptions ++= Seq(
