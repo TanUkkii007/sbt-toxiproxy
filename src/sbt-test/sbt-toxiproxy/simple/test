@@ -1,0 +1,8 @@
+> deployToxiproxy
+$ exists toxiproxy/toxiproxy-server-darwin-amd64
+
+> startToxiproxy
+
+> toxiproxyPid
+
+> stopToxiproxy
