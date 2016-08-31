@@ -15,7 +15,15 @@ scalacOptions ++= Seq(
   "-language:postfixOps"
 )
 
-licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
+licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
+
+homepage := Some(url("https://github.com/TanUkkii007/sbt-toxiproxy"))
+
+BintrayPlugin.bintraySettings
+
+BintrayPlugin.autoImport.bintrayPackage := "sbt-toxiproxy"
+
+enablePlugins(ReleasePlugin)
 
 ScriptedPlugin.scriptedSettings
 
